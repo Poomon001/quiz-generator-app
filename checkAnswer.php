@@ -21,25 +21,27 @@
 
 	//decode json into array
 	$phparray = json_decode($jsonstring, true);
+
+	//loop to check each answer
 	for($i = 0; $i < sizeof($phparray); $i++){
 		if($phparray[$i]['ID'] == $ID){
-			if(trim(strtolower($phparray[$i]['answer_1'])) != trim(strtolower($A1))){
+			if(htmlspecialchars(trim(strtolower($phparray[$i]['answer_1']))) != trim(strtolower($A1))){
 				$ErrA1 =  "'" . $A1 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_1']) . "'";
 			}
 
-			if(trim(strtolower($phparray[$i]['answer_2'])) != trim(strtolower($A2))){
+			if(trim(strtolower(htmlspecialchars($phparray[$i]['answer_2']))) != trim(strtolower($A2))){
 				$ErrA2 = "'" . $A2 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_2']) . "'";
 			}
 
-			if(trim(strtolower($phparray[$i]['answer_3'])) != trim(strtolower($A3))){
+			if(htmlspecialchars(trim(strtolower($phparray[$i]['answer_3']))) != trim(strtolower($A3))){
 				$ErrA3 = "'" . $A3 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_3']) . "'";
 			}
 
-			if(trim(strtolower($phparray[$i]['answer_4'])) != trim(strtolower($A4))){
+			if(htmlspecialchars(trim(strtolower($phparray[$i]['answer_4']))) != trim(strtolower($A4))){
 				$ErrA4 = "'" . $A4 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_4']) . "'";
 			}
 
-			if(trim(strtolower($phparray[$i]['answer_5'])) != trim(strtolower($A5))){
+			if(htmlspecialchars(trim(strtolower($phparray[$i]['answer_5']))) != trim(strtolower($A5))) {
 				$ErrA5 = "'" . $A5 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_5']) . "'";
 			}
 
