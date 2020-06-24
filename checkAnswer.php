@@ -2,11 +2,11 @@
 	$title = $Q1 = $A1 = $Q2 = $A2 = $Q3 = $A3 = $Q4 = $A4 = $Q5 = $A5 = $ID = "";
 	$ErrA1 = $ErrA2 = $ErrA3 = $ErrA4 = $ErrA5 ="";
 	$ID = $_POST["submit"]; 
-	$A1 = $_POST["A1"]; 
-	$A2 = $_POST["A2"]; 
-	$A3 = $_POST["A3"]; 
-	$A4 = $_POST["A4"]; 
-	$A5 = $_POST["A5"];
+	$A1 = htmlspecialchars($_POST["A1"]); 
+	$A2 = htmlspecialchars($_POST["A2"]); 
+	$A3 = htmlspecialchars($_POST["A3"]); 
+	$A4 = htmlspecialchars($_POST["A4"]); 
+	$A5 = htmlspecialchars($_POST["A5"]);
 	$error = false;
 
 	//call Json
@@ -24,23 +24,23 @@
 	for($i = 0; $i < sizeof($phparray); $i++){
 		if($phparray[$i]['ID'] == $ID){
 			if(trim(strtolower($phparray[$i]['answer_1'])) != trim(strtolower($A1))){
-				$ErrA1 =  "'" . $A1 . "'" . " is wrong! the correct answer is " .  "'" . $phparray[$i]['answer_1'] . "'";
+				$ErrA1 =  "'" . $A1 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_1']) . "'";
 			}
 
 			if(trim(strtolower($phparray[$i]['answer_2'])) != trim(strtolower($A2))){
-				$ErrA2 = "'" . $A2 . "'" . " is wrong! the correct answer is " .  "'" .$phparray[$i]['answer_2'] . "'";
+				$ErrA2 = "'" . $A2 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_2']) . "'";
 			}
 
 			if(trim(strtolower($phparray[$i]['answer_3'])) != trim(strtolower($A3))){
-				$ErrA3 = "'" . $A3 . "'" . " is wrong! the correct answer is " .  "'" .$phparray[$i]['answer_3'] . "'";
+				$ErrA3 = "'" . $A3 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_3']) . "'";
 			}
 
 			if(trim(strtolower($phparray[$i]['answer_4'])) != trim(strtolower($A4))){
-				$ErrA4 = "'" . $A4 . "'" . " is wrong! the correct answer is " .  "'" .$phparray[$i]['answer_4'] . "'";
+				$ErrA4 = "'" . $A4 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_4']) . "'";
 			}
 
 			if(trim(strtolower($phparray[$i]['answer_5'])) != trim(strtolower($A5))){
-				$ErrA5 = "'" . $A5 . "'" . " is wrong! the correct answer is " .  "'" . $phparray[$i]['answer_5'] . "'";
+				$ErrA5 = "'" . $A5 . "'" . " is wrong! the correct answer is " .  "'" . htmlspecialchars($phparray[$i]['answer_5']) . "'";
 			}
 
 			$Q1 = $phparray[$i]['question_1'];
