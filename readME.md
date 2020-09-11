@@ -3,7 +3,7 @@ Quiz Generator app is a study tool application that allows users to create, atte
 
 The topic in this competition was to build a piece of software that enriched UVic students' lives. This topic inspires our team to build a tool that prepares UVic students for their tests. 
 
-[a link](https://quiz-generator-app.herokuapp.com/homepage.html)
+Check out this link: [https://quiz-generator-app.herokuapp.com/homepage.html](https://quiz-generator-app.herokuapp.com/homepage.html)
 
 ## How does Quiz Generator App work?
 
