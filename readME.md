@@ -15,7 +15,7 @@ Check out this link: [https://quiz-generator-app.herokuapp.com/homepage.html](ht
 4. Allow other users to view and attempt the quizzes that display on the Home page
 5. Pull ID and other data according to the quiz link selected by users
 6. Create a Quiz Game page from the data pulled from JSON arrays
-7. Allow users to attempt the quiz, check their answer and return the correct answers to them
+7. Allow users to attempt the quiz, check their answer and return the correct answers
 
 ### Auto-Generator Mode
 1. Ask users to input text file
