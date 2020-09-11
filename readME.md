@@ -46,7 +46,7 @@ This 1st version of the Quiz Generator app was built within 24 hours of Hackatho
 6. Improve the auto-generator mode
 7. Add session
 
-## Example of inputFile, input, model and result
+## Example of HomePage, AddQuizPage, SampleQuizPage, AnswerPage and Auto-GeneratorPage
 
 ### Home Page
 <img src="images/HomePage.jpg" height=400>
