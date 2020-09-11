@@ -32,7 +32,7 @@ Check out this link: [https://quiz-generator-app.herokuapp.com/homepage.html](ht
 * PHP
 * HTML/CSS/Boostrap/React
 * JSon array
-* I/O
+* I/O file
 * Regex library
 * JS promise
 
