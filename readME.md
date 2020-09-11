@@ -3,7 +3,10 @@ Quiz Generator app is a study tool application that allows users to create, atte
 
 The topic in this competition was to build a piece of software that enriched UVic students' lives. This topic inspires our team to build a tool that prepares UVic students for their tests. 
 
+[a link](https://quiz-generator-app.herokuapp.com/homepage.html)
+
 ## How does Quiz Generator App work?
+
 ### Manual Mode
 1. Ask users to create their quiz on the Add Quiz page
 2. Store input data in JSON arrays
@@ -46,16 +49,16 @@ This 1st version of the Quiz Generator app was built within 24 hours of Hackatho
 ## Example of inputFile, input, model and result
 
 ### Home Page
-<img src="images/HomePage.jpg" height=500>
+<img src="images/HomePage.jpg" height=400>
 
 ### Add Quiz Page
-<img src="images/AddQuiz.jpg" height=500>
+<img src="images/AddQuiz.jpg" height=400>
 
 ### Sample Quiz Page
-<img src="images/SampleQuiz.jpg" height=500>
+<img src="images/SampleQuiz.jpg" height=400>
 
 ### Answer Page
-<img src="images/AnswerCheck.jpg" height=500>
+<img src="images/AnswerCheck.jpg" height=400>
 
 ### Auto-Generator Page
-<img src="images/AutoGenerator.jpg" height=500>
+<img src="images/AutoGenerator.jpg" height=400>
