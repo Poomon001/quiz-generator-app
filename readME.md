@@ -31,7 +31,7 @@ Check out this link: [https://quiz-generator-app.herokuapp.com/homepage.html](ht
 * JavaScript
 * PHP
 * HTML/CSS/Boostrap/React
-* JSon array
+* JSON array
 * I/O file
 * Regex library
 * JS promise
