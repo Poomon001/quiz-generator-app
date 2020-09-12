@@ -5,7 +5,7 @@ The topic in this competition was to build a piece of software that enriched UVi
 
 Check out this link: [https://quiz-generator-app.herokuapp.com/homepage.html](https://quiz-generator-app.herokuapp.com/homepage.html)
 
-## How does Quiz Generator App work?
+## How Does Quiz Generator App Work?
 
 ### Manual Mode
 1. Ask users to create their quiz on the Add Quiz page
