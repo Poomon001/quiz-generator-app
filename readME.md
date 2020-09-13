@@ -49,16 +49,16 @@ This 1st version of the Quiz Generator app was built within 24 hours of Hackatho
 ## Example of Home, AddQuiz, SampleQuiz, Answer and Auto-Generator
 
 ### Home Page
-<img src="images/HomePage.jpg" height=400>
+<img src="images/HomePage.jpg" width=400>
 
 ### Add Quiz Page
-<img src="images/AddQuiz.jpg" height=400>
+<img src="images/AddQuiz.jpg" width=400>
 
 ### Sample Quiz Page
-<img src="images/SampleQuiz.jpg" height=400>
+<img src="images/SampleQuiz.jpg" width=400>
 
 ### Answer Page
-<img src="images/AnswerCheck.jpg" height=400>
+<img src="images/AnswerCheck.jpg" width=400>
 
 ### Auto-Generator Page
-<img src="images/AutoGenerator.jpg" height=400>
+<img src="images/AutoGenerator.jpg" width=400>
